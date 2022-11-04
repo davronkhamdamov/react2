@@ -1,5 +1,5 @@
 .App {
-  width: 1200px;
+  width: 1100px;
   margin: 0 auto;
   margin-top: 4vh;
 }
@@ -32,9 +32,10 @@
   height: auto;
 }
 .hero {
-  width: 350px;
+  width: 300px;
 }
 .hero-title {
+  font-size: 30px;
   line-height: 40px;
   font-weight: 500;
 }
@@ -62,9 +63,10 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: url('./image/rocket.png'), auto;
 }
 form {
-  width: 350px;
+  width: 300px;
   height: 30vh;
   position: relative;
 }
@@ -110,10 +112,12 @@ form {
   justify-content: space-between;
 }
 .box a {
+  font-size: 14px;
   text-decoration: underline;
   font-weight: 500;
 }
 .box label {
+  font-size: 14px;
   font-weight: 500;
 }
 .submit {
@@ -130,8 +134,10 @@ form {
 }
 .signup {
   width: 58%;
+  margin-top: 30px;
   line-height: 30px;
   display: flex;
+  font-size: 14px;
   align-items: center;
   justify-content: space-between;
 }
